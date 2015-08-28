@@ -8,7 +8,7 @@ int main()
 	ifstream ip;
 	ofstream op;
 	string line,line2;
-	ip.open("code_32_bit.s");
+	ip.open("32_bit.s");
 	op.open("mycode_64.s");
 	if(ip.is_open())
 	{
